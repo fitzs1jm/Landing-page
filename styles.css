@@ -1,37 +1,61 @@
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+body{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    font-family: Roboto slab, sans-serif;
+}
+
+.top-section{
     background-color: #1F2937
-
-
 }
 
 
-.logo {
-    color: #F9FAF8;
-    font-size: 24px;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     
 
 
 }
 
+.navbar-logo, .navbar-links{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    
+}
+
 
 ul{
     display: flex;
-    justify-content: flex-end;
     gap: 20px;
     list-style: none;
     font-size: 18px;
     color: #E5E7EB
+    
     
 }
 
 .main{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #1F2937
+    justify-content: ;
+    
+    
 
 }
 
@@ -40,13 +64,15 @@ ul{
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
-    flex-basis: 350px
+    flex: 1 1 350px;
+
 
 
 }
 
 .main-img{
-    width: 700px
+    ;
+    border: 2px solid red;
 }
 
 .main h1{
@@ -58,4 +84,11 @@ ul{
     font: 18px;
     color: #E5E7EB;
     
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15%;
+
 }
