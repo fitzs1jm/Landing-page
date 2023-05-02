@@ -209,6 +209,21 @@ body{
     border: 1px solid white;
 }
 
+.footer{
+    background-color: #1F2937;
+    color: white;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
 
 
 
+
+.footer-text{
+    margin: 30px
+
+}
